@@ -24,20 +24,20 @@ R: O git push tem como funcao enviar o commit realizado anteriormente para o loc
 R: Para sempre registrar mudancas no codigo e assim podendo sempre mostrar toda a alteracao feita sobre o codigo original
 
 8-Explique a função das tags HTML e como elas estruturam uma página.
-R: as tags sao: <main>, <body>, <html>
+R: as tags definem a estrutura e o significado do conteudo de uma pagina. Elas estruturam a mesma conforme criacoes de titulos, paragrafos, imagens, links e outros fatores.
 
 9-O que são atributos em uma tag HTML e qual a sua função?
-R:
+R:sao palavras especiais que controlam o comportamento de determinados elementos. Suas funcoes variam desde identificar um elemento, informar qual o arquivo a tag deve utilizar e entre outros.
 
 10-O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
 R:O Emmet é uma ferramenta que ajuda a escrever HTML, CSS e outras linguagens de forma mais rápida e eficiente.
 Aumenta sua eficiencia utilizando  o hmtl e sera mais rapido.
 
 11-O que é o box-sizing no CSS e por que usamos ele no reset inicial?
-R:Ele é importante pois define
+R:Ele é importante pois define a larguras e alturas dos elementos nao calculados. Ele pode ser utilizado no reset inicial para padronizar o box model nos documentos.
 
 12-Por que é importante utilizar tags semânticas no HTML?
-R:
+R:Pois as mesmas melhoram a acessibilidade, permitindo que os leitores de tela e outras tecnologias assistivas interpretem o conteúdo de forma mais eficiente
 
 13-O que são media queries no CSS e qual a sua função?
 R:sao um recurso do CSS que permite adaptar a visualizacao de uma pagina a diferentes dimensoes de tela e tipos de midias.
@@ -46,13 +46,13 @@ R:sao um recurso do CSS que permite adaptar a visualizacao de uma pagina a difer
 R:sua funcao é publicar qualquer arquivo estático do qual foi realizado o push no repositorio.
 
 15-O que é o Flexbox no CSS e para que ele é utilizado?
-R:
+R:e um elemento que visa organizar os elementos de uma pagina de HTML dentro de seus containers de uma forma dinamica
 
 16-Qual a diferença entre justify-content e align-items em um container Flexbox?
-R:
+R:o justify-content alinha os itens no segmento X/Horizontal. Ja o align-items ele alinha o item nos segmentos Y/Vertical
 
 17-Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
-R:
+R: Ele define a habilidade de um flex item de crescer, caso necessario. Seu proposito é a criacao de layouts flexiveis.
 
 18-Explique a diferença entre flex-direction: column; e flex-direction: row;.
-R:
+R: o Flex- column organiza os itens em coluna, enquanto o flex- direction organiza os itens em linhas.
