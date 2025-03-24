@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    overflow: hidden;
     height: 100%;
     display: grid;
     grid-template-rows: 100px 1fr 50px;
@@ -29,7 +30,6 @@ header, footer {
 }
 
 main {
-    flex-grow: 1;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -81,6 +81,8 @@ main {
 }
 
 footer {
+    height: 50px;
+    overflow: hidden;
     display: grid;
     grid-template-columns: auto 1fr auto;
     justify-content: space-between;
@@ -106,6 +108,11 @@ footer div {
         font-size: 1rem;
         width: 100px;
         text-align: center;
+    }
+    body{
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 100px 1fr 50px;
     }
 
     .content-image {
